@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "156122462620",
+    "firebase_url": "https://cafeshop-1f02e.firebaseio.com",
+    "project_id": "cafeshop-1f02e",
+    "storage_bucket": "cafeshop-1f02e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156122462620:android:ce286448ae4de93020b059",
+        "android_client_info": {
+          "package_name": "com.moonrock.cafeshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156122462620-uhsinjvl3jurv5ancoo8v4ehg0apa66d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaz0F0XPEpYnANU_Ubfb4kqs4KCVOuv9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156122462620-uhsinjvl3jurv5ancoo8v4ehg0apa66d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

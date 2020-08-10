@@ -33,9 +33,45 @@ dependencies:
   # configuration, FormData, Request Cancellation, File downloading, Timeout etc.
   dio: ^3.0.10
 
-  # A Flutter plugin to use the Cloud Firestore API.
+
+  # With this plugin, your Flutter app can receive and process push notifications
+  # as well as data messages on Android and iOS.
+  firebase_messaging: ^6.0.16
+  
+  # A Flutter plugin to use the Firebase Remote Config API.
+  firebase_remote_config: ^0.3.1+1
+  
+  # A Flutter plugin to use the Firebase Crashlytics Service.
+  firebase_crashlytics: ^0.1.4+1
+
+  # Flutter plugin for Cloud Firestore, a cloud-hosted, noSQL database with live synchronization
+  # and offline support on Android and iOS.
   cloud_firestore: ^0.13.7
 
+  # A set of utilities that allow you to easily pass a data Model from a parent Widget down
+  # to it's descendants. In addition, it also rebuilds all of the children that use the model when the model is updated.
+  scoped_model: ^1.0.1
+
+  # Wraps platform-specific persistent storage for simple data 
+  # (NSUserDefaults on iOS and macOS, SharedPreferences on Android, etc.).
+  shared_preferences: ^0.5.8
+
+  # This Flutter plugin provides an API for querying information about an application package.
+  package_info: ^0.4.1
+
+  # Geolocation plugin for Flutter. This plugin provides a cross-platform (iOS, Android) 
+  # API for generic location (GPS etc.) functions.
+  geolocator: ^5.3.2+2
+
+  # Flutter plugin providing detailed information about the device (make, model, etc.), 
+  # and Android or iOS version the app is running on.
+  device_info: ^0.4.2+4
+
+  # A cross platform plugin for displaying and scheduling local notifications for 
+  # Flutter applications with the ability to customise for each platform.
+  flutter_local_notifications: ^1.4.4+2
+
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

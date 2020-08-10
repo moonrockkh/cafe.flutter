@@ -8,8 +8,13 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Cafe Shop"),
+      ),
+      body: Container(
+        child: Text("MoonRock"),
+      ),
     );
   }
 }
